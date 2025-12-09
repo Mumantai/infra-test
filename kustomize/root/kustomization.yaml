@@ -1,6 +1,6 @@
 
 resources:
-  - /apps/cert-manager.yaml
-  - /apps/opensearch-operator.yaml
-  - /apps/cnpg-operator.yaml
-  - /apps/iris.yaml
+  - /cert-manager.yaml
+  - /opensearch-operator.yaml
+  - /cnpg-operator.yaml
+  - /iris.yaml
