@@ -8,9 +8,9 @@ spec:
   source:
     repoURL: https://opensearch-project.github.io/opensearch-k8s-operator/
     chart: opensearch-operator
-    targetRevision: 2.12.0
+    targetRevision: 2.8.0
   destination:
     server: https://kubernetes.default.svc
-    namespace: opensearch
+    namespace: opensearch-operator-system
   syncPolicy:
     automated: {}
