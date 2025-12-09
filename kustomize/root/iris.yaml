@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: REPO_URL_PLACEHOLDER
+    repoURL: https://github.com/Mumantai/infra-test
     path: kustomize/iris
     targetRevision: HEAD
   destination:
