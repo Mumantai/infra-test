@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: opensearch-operator
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://opensearch-project.github.io/helm-charts
+    chart: opensearch-operator
+    targetRevision: 2.12.0
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: opensearch
+  syncPolicy:
+    automated: {}
