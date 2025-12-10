@@ -12,6 +12,8 @@ spec:
       labels:
         app: iris
     spec:
+      imagePullSecrets:
+       - name: ghcr-secret
       containers:
         - name: iris
           image: ghcr.io/dfir-iris/iris-web:latest
